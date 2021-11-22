@@ -1,6 +1,6 @@
 from ete3 import Tree
 
-t = Tree("data_1/listeria_21.newick")
+t = Tree("l_monocytogenes/listeria_21.newick")
 
 print(t)
 print(len(t.get_leaves()))

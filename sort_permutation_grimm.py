@@ -1,6 +1,6 @@
 from bg.grimm import GRIMMReader
 
-file = 'data_1/parebrick_output/5000/preprocessed_data/genomes_permutations_unique.txt'
+file = 'bifidobact/blocks/1000/genomes_permutations_unique.txt'
 
 def get_index(or_and_nums):
     only_nums = [num for or_, num in or_and_nums]
