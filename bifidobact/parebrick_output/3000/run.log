@@ -1,0 +1,43 @@
+[2021-12-15 15:38:39,932] INFO - <Running module: Preprocess Data>
+[2021-12-15 15:38:39,933] INFO - Converting block coords to infercars format
+[2021-12-15 15:38:39,956] INFO - <Module finished: Preprocess Data>, elapsed 0.02395796775817871 seconds
+[2021-12-15 15:38:39,956] INFO - <Running module: Parsers and check strains>
+[2021-12-15 15:38:39,973] INFO - Blocks count: 22
+[2021-12-15 15:38:39,974] INFO - Unique one-copy blocks count: 20
+[2021-12-15 15:38:39,975] INFO - Mean block coverage: 97.69652735472921 %
+[2021-12-15 15:38:39,977] INFO - Mean common one-copy blocks coverage: 96.86111956282286 %
+[2021-12-15 15:38:39,979] INFO - Mean 80 % rate one-copy blocks coverage: 96.86111956282286 %
+[2021-12-15 15:38:39,981] INFO - Trying to root tree by first child of root
+[2021-12-15 15:38:39,981] INFO - Children of root: [Tree node '' (0x13300537), Tree node '' (0x1330056d), Tree node 'LR699002' (0x13300519)]
+[2021-12-15 15:38:39,982] INFO - Strains in blocks file count: 22
+[2021-12-15 15:38:39,982] INFO - Strains in tree leafs count: 22
+[2021-12-15 15:38:39,982] INFO - Intersected strains count: 22
+[2021-12-15 15:38:39,982] INFO - <Module finished: Parsers and check strains>, elapsed 0.02585577964782715 seconds
+[2021-12-15 15:38:39,982] INFO - <Running module: Balanced rearrangements characters>
+[2021-12-15 15:38:39,996] INFO - Breakpoint graph parsed
+[2021-12-15 15:38:39,996] INFO - Edges in breakpoint graph: 26
+[2021-12-15 15:38:39,998] INFO - Getting characters from breakpoint graph component, size=12
+[2021-12-15 15:38:40,001] INFO - <Module finished: Balanced rearrangements characters>, elapsed 0.01896810531616211 seconds
+[2021-12-15 15:38:40,001] INFO - <Running module: Balanced rearrangements stats>
+[2021-12-15 15:38:40,001] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-12-15 15:38:40,022] INFO - Got characters after breakpoint graph consideration: 6
+[2021-12-15 15:38:40,022] INFO - Percentage of consistent rearrangements (balanced): 100.0 %
+[2021-12-15 15:38:40,022] INFO - <Module finished: Balanced rearrangements stats>, elapsed 0.021680116653442383 seconds
+[2021-12-15 15:38:40,023] INFO - <Running module: Balanced rearrangements output>
+[2021-12-15 15:38:40,291] INFO - <Module finished: Balanced rearrangements output>, elapsed 0.26859116554260254 seconds
+[2021-12-15 15:38:40,291] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-12-15 15:38:40,291] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 8.988380432128906e-05 seconds
+[2021-12-15 15:38:40,291] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-12-15 15:38:40,293] INFO - Got characters after copy number variation consideration: 22
+[2021-12-15 15:38:40,293] INFO - Percentage of consistent rearrangements (unbalanced): 113.01652892561984 %
+[2021-12-15 15:38:40,293] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-12-15 15:38:40,321] INFO - Jaccard index matrix constructed
+[2021-12-15 15:38:40,328] INFO - Proximity matrix constructed
+[2021-12-15 15:38:40,331] INFO - Clustring is done
+[2021-12-15 15:38:40,331] INFO - Clusters: 8
+[2021-12-15 15:38:40,331] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 0.039865970611572266 seconds
+[2021-12-15 15:38:40,331] INFO - <Running module: Unbalanced rearrangements output>
+[2021-12-15 15:38:40,577] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 0.24587297439575195 seconds
+[2021-12-15 15:38:40,577] INFO - <Running module: Visualize neighbours output>
+[2021-12-15 15:38:41,131] INFO - <Module finished: Visualize neighbours output>, elapsed 0.553307294845581 seconds
+[2021-12-15 15:38:41,131] INFO - Total elapsed time: 1.199105978012085 seconds
