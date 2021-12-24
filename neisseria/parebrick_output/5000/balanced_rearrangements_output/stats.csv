@@ -1,0 +1,15 @@
+id,adjacency,mean_break_length_nucleotide,parallel_rear_score,number_of_inconsistent_colors,number_of_parallel_events,parallel_break_score,number_of_parallel_breaks,tree_consistent
+1,89h–90t,13284,0,0,0,0.008691649999999999,2,False
+2,88h–89t,15549,0,0,0,0.008691649999999999,2,False
+3,97h–98t,3958,0,0,0,0,1,True
+4,95h–96t,603,0,0,0,0,1,True
+5,90h–91t,6277,0,0,0,0,1,True
+6,87h–88t,7206,0,0,0,0,1,True
+7,76h–77t,8250,0,0,0,0,1,True
+8,65h–66t,18724,0,0,0,0,1,True
+9,62h–63t,766,0,0,0,0,1,True
+10,28t–38t,1444,0,0,0,0,1,True
+11,27h–37h,14769,0,0,0,0,1,True
+12,112h–1t,17413,0,0,0,0,1,True
+13,111h–112t,2242,0,0,0,0,1,True
+14,100t–99h,18394,0,0,0,0,1,True
