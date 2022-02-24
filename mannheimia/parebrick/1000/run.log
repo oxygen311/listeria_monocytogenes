@@ -1,0 +1,72 @@
+[2022-02-24 18:36:54,895] INFO - <Running module: Preprocess Data>
+[2022-02-24 18:36:54,925] INFO - Converting block coords to infercars format
+[2022-02-24 18:36:55,296] INFO - <Module finished: Preprocess Data>, elapsed 0.40142059326171875 seconds
+[2022-02-24 18:36:55,296] INFO - <Running module: Parsers and check strains>
+[2022-02-24 18:36:55,510] INFO - Blocks count: 326
+[2022-02-24 18:36:55,510] INFO - Unique one-copy blocks count: 169
+[2022-02-24 18:36:55,513] INFO - Mean block coverage: 89.68550594025771 %
+[2022-02-24 18:36:55,516] INFO - Mean common one-copy blocks coverage: 75.87960658882433 %
+[2022-02-24 18:36:55,519] INFO - Mean 80 % rate one-copy blocks coverage: 83.4705931925258 %
+[2022-02-24 18:36:55,552] INFO - Strains in blocks file count: 43
+[2022-02-24 18:36:55,552] INFO - Strains in tree leafs count: 43
+[2022-02-24 18:36:55,552] INFO - Intersected strains count: 43
+[2022-02-24 18:36:55,552] INFO - <Module finished: Parsers and check strains>, elapsed 0.25630688667297363 seconds
+[2022-02-24 18:36:55,553] INFO - <Running module: Balanced rearrangements characters>
+[2022-02-24 18:36:55,920] INFO - Breakpoint graph parsed
+[2022-02-24 18:36:55,921] INFO - Edges in breakpoint graph: 382
+[2022-02-24 18:36:55,922] INFO - Getting characters from breakpoint graph component, size=6
+[2022-02-24 18:36:55,925] INFO - Getting characters from breakpoint graph component, size=10
+[2022-02-24 18:36:55,930] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,932] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,933] INFO - Getting characters from breakpoint graph component, size=6
+[2022-02-24 18:36:55,936] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,939] INFO - Getting characters from breakpoint graph component, size=18
+[2022-02-24 18:36:55,960] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,961] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,962] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,963] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,969] INFO - Getting characters from breakpoint graph component, size=8
+[2022-02-24 18:36:55,972] INFO - Getting characters from breakpoint graph component, size=8
+[2022-02-24 18:36:55,974] INFO - Getting characters from breakpoint graph component, size=6
+[2022-02-24 18:36:55,976] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:55,984] INFO - Getting characters from breakpoint graph component, size=32
+[2022-02-24 18:36:56,011] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,017] INFO - Getting characters from breakpoint graph component, size=8
+[2022-02-24 18:36:56,029] INFO - Getting characters from breakpoint graph component, size=40
+[2022-02-24 18:36:56,063] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,068] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,069] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,070] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,071] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,072] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,074] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,075] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,077] INFO - Getting characters from breakpoint graph component, size=8
+[2022-02-24 18:36:56,081] INFO - Getting characters from breakpoint graph component, size=14
+[2022-02-24 18:36:56,087] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,093] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,094] INFO - Getting characters from breakpoint graph component, size=4
+[2022-02-24 18:36:56,096] INFO - <Module finished: Balanced rearrangements characters>, elapsed 0.5431530475616455 seconds
+[2022-02-24 18:36:56,096] INFO - <Running module: Balanced rearrangements stats>
+[2022-02-24 18:36:56,096] INFO - Counting distances between unique one-copy blocks, may take a while
+[2022-02-24 18:36:59,395] INFO - Got characters after breakpoint graph consideration: 121
+[2022-02-24 18:36:59,396] INFO - Percentage of consistent rearrangements (balanced): 79.33884297520662 %
+[2022-02-24 18:36:59,417] INFO - <Module finished: Balanced rearrangements stats>, elapsed 3.32082200050354 seconds
+[2022-02-24 18:36:59,417] INFO - <Running module: Balanced rearrangements output>
+[2022-02-24 18:37:04,161] INFO - <Module finished: Balanced rearrangements output>, elapsed 4.744262218475342 seconds
+[2022-02-24 18:37:04,161] INFO - <Running module: Unbalanced rearrangements characters>
+[2022-02-24 18:37:04,163] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.0014011859893798828 seconds
+[2022-02-24 18:37:04,163] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2022-02-24 18:37:04,210] INFO - Got characters after copy number variation consideration: 326
+[2022-02-24 18:37:04,210] INFO - Percentage of consistent rearrangements (unbalanced): 92.09587672991866 %
+[2022-02-24 18:37:04,210] INFO - Counting distances between non-convex character blocks, may take a while
+[2022-02-24 18:37:09,503] INFO - Jaccard index matrix constructed
+[2022-02-24 18:37:11,108] INFO - Proximity matrix constructed
+[2022-02-24 18:37:11,121] INFO - Clustring is done
+[2022-02-24 18:37:11,121] INFO - Clusters: 41
+[2022-02-24 18:37:11,152] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 6.989606142044067 seconds
+[2022-02-24 18:37:11,152] INFO - <Running module: Unbalanced rearrangements output>
+[2022-02-24 18:37:15,040] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 3.8877387046813965 seconds
+[2022-02-24 18:37:15,040] INFO - <Running module: Visualize neighbours output>
+[2022-02-24 18:37:28,026] INFO - <Module finished: Visualize neighbours output>, elapsed 12.9860200881958 seconds
+[2022-02-24 18:37:28,026] INFO - Total elapsed time: 33.132144927978516 seconds
